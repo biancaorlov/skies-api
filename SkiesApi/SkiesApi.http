@@ -1,0 +1,23 @@
+@SkiesApi_HostAddress = http://localhost:5124
+
+### Get user profile
+GET {{SkiesApi_HostAddress}}/api/users/bior
+Accept: application/json
+
+###
+
+### Search posts
+GET {{SkiesApi_HostAddress}}/api/posts?q=travel
+Accept: application/json
+
+###
+
+### Get post by id
+GET {{SkiesApi_HostAddress}}/api/posts/1001
+Accept: application/json
+
+###
+
+### List activities by city
+GET {{SkiesApi_HostAddress}}/api/activities?city=Stockholm
+Accept: application/json
